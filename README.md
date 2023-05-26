@@ -21,7 +21,6 @@ Create the sturcturing element kernel via autogeneration for opening and closing
 ```Python
 kernel = cv2.getStructuringElement(cv2.MORPH_CROSS, kernelsize)
 ```
-
 ### Step4:
 
 Implement Opening and Closing over the image using cv2.morphologyEx().
@@ -30,9 +29,7 @@ Implement Opening and Closing over the image using cv2.morphologyEx().
 
 Display the result Image.
 
- 
 ## Program:
-
 ```
 Developed By: Kersoan P
 Register  No: 212221230050
