@@ -1,4 +1,4 @@
-# Opening-and-Closing
+# EX-11--Opening-and-Closing
 
 ## Aim
 To implement Opening and Closing using Python and OpenCV.
@@ -34,8 +34,8 @@ Display the result Image.
 ## Program:
 
 ```
-Developed By: Pranave B
-Register  No: 212221240040
+Developed By: Kersoan P
+Register  No: 212221230050
 ```
 
 ``` Python
@@ -49,7 +49,7 @@ import numpy as np
 
 text_image = np.zeros((100,250), dtype = 'uint8')
 font = cv2.FONT_HERSHEY_SCRIPT_SIMPLEX
-cv2.putText(text_image, 'Pranave',(5,70),font,2,255,2,cv2.LINE_AA)     
+cv2.putText(text_image, 'Kersoan P',(5,70),font,2,255,2,cv2.LINE_AA)     
 plt.imshow(text_image,'bone')
 plt.axis('off')
 
@@ -79,11 +79,11 @@ close_image = cv2.morphologyEx(image, cv2.MORPH_CLOSE, kernel)
 
 ### Display the result of Opening
 
-![](oi.png)
+![](Openimage.png)
 
 ### Display the result of Closing
 
-![](ci.png)
+![](Closeimage.png)
 
 ## Result
 Thus the Opening and Closing operation is used in the image using python and OpenCV.
