@@ -1,12 +1,12 @@
 # EX-11--Opening-and-Closing
 
-## Aim
+## Aim;
 To implement Opening and Closing using Python and OpenCV.
 
-## Software Required
+## Software Required ;
 1. Anaconda - Python 3.7
 2. OpenCV
-## Algorithm:
+## Algorithm;
 ### Step1:
 
 Import the necessary packages.
